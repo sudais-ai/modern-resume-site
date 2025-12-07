@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sudais AI | Professional AI/ML Freelancer</title>
+    <meta name="description" content="Professional AI & ML Freelancer specializing in Python, Java, C++, Deep Learning and Machine Learning solutions">
+    <meta name="keywords" content="AI Freelancer, ML Engineer, Python Developer, Java Developer, C++ Developer, Deep Learning, Machine Learning, Freelancer.com, Fiverr, Upwork">
+    <meta name="author" content="Muhammad Sudais AI">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    
+    <!-- Mapbox for location -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <!-- Color Theme Switcher -->
+    <div class="theme-colors">
+        <div class="color-scheme" data-theme="default" title="Default Theme"></div>
+        <div class="color-scheme" data-theme="purple" title="Purple Theme"></div>
+        <div class="color-scheme" data-theme="blue" title="Blue Theme"></div>
+        <div class="color-scheme" data-theme="green" title="Green Theme"></div>
+        <div class="color-scheme" data-theme="orange" title="Orange Theme"></div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- AI Chatbot Button (Right Side) -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-robot"></i>
+        <span class="chat-notification">1</span>
+    </div>
+
+    <!-- WhatsApp Button (Left Side) -->
+    <a href="https://wa.me/923474810818" class="whatsapp-float left" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                    <span class="logo-tag">AI FREELANCER</span>
+                </div>
+            </a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user-tie"></i> About</a></li>
+                <li><a href="services.html"><i class="fas fa-code"></i> Services</a></li>
+                <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="nav-cta">
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-hire" target="_blank">
+                        <i class="fas fa-bolt"></i> Hire Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero ai-hero" data-aos="fade-up">
+        <div class="hero-bg">
+            <div class="bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="freelancer-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>TOP RATED FREELANCER</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="gradient-text">AI & ML Solutions</span>
+                        <span class="typed-text" id="typed-output"></span>
+                    </h1>
+                    
+                    <p class="hero-desc">
+                        Professional <strong>AI/ML Freelancer</strong> with 5+ years experience. 
+                        I build intelligent solutions using <span class="highlight">Python</span>, 
+                        <span class="highlight">Java</span>, and <span class="highlight">C++</span>.
+                        Available for projects on <strong>Freelancer</strong>, <strong>Fiverr</strong>, 
+                        and <strong>Upwork</strong>.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>200+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4.9/5</h3>
+                            <p>Rating</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24h</h3>
+                            <p>Response Time</p>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="fas fa-bolt"></i> Hire on Freelancer
+                        </a>
+                        <a href="portfolio.html" class="btn-secondary" data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fas fa-eye"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn-outline" data-aos="zoom-in" data-aos-delay="300">
+                            <i class="fas fa-calendar"></i> Book Call
+                        </a>
+                    </div>
+                    
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>100% Job Success</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-clock"></i>
+                            <span>On-Time Delivery</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Money Back Guarantee</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-profile" data-aos="fade-left">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-img">
+                                <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Muhammad Sudais AI">
+                                <div class="online-status"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h3>Muhammad Sudais</h3>
+                                <p>AI/ML Freelancer</p>
+                                <div class="profile-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.9 (127 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-details">
+                            <div class="detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <span>Islamabad, Pakistan</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Available</strong>
+                                    <span>24/7 for Urgent Projects</span>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-calendar-check"></i>
+                                <div>
+                                    <strong>Next Available</strong>
+                                    <span>Today</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-platforms">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="platform" target="_blank">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Freelancer</span>
+                            </a>
+                            <a href="https://www.fiverr.com/sudais_ai" class="platform" target="_blank">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Fiverr</span>
+                            </a>
+                            <a href="https://www.upwork.com/freelancers/~01a1b1c1d1e1f1a1b1" class="platform" target="_blank">
+                                <i class="fab fa-upwork"></i>
+                                <span>Upwork</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelance Platforms -->
+    <section class="platforms-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Hire Me On</h2>
+                <p class="section-subtitle">Top freelance platforms where I'm available</p>
+            </div>
+            
+            <div class="platforms-grid">
+                <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="platform-card" target="_blank" data-aos="zoom-in">
+                    <div class="platform-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Freelancer.com</h3>
+                    <p>Top Rated Plus Freelancer</p>
+                    <div class="platform-stats">
+                        <span><i class="fas fa-star"></i> 4.9 Rating</span>
+                        <span><i class="fas fa-check-circle"></i> 100+ Jobs</span>
+                    </div>
+                    <button class="platform-btn">View Profile</button>
+                </a>
+                
+                <a href="https://www.fiverr.com/sudais_ai" class="platform-card" target="_blank" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="platform-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Fiverr</h3>
+                    <p>Level 2 Seller</p>
+                    <div class="platform-stats">
+                        <span><i class="fas fa-star"></i> 5.0 Rating</span>
+                        <span><i class="fas fa-check-circle"></i> 50+ Orders</span>
+                    </div>
+                    <button class="platform-btn">View Gigs</button>
+                </a>
+                
+                <a href="https://www.upwork.com/freelancers/~01a1b1c1d1e1f1a1b1" class="platform-card" target="_blank" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="platform-icon">
+                        <i class="fab fa-upwork"></i>
+                    </div>
+                    <h3>Upwork</h3>
+                    <p>Top Rated Plus</p>
+                    <div class="platform-stats">
+                        <span><i class="fas fa-star"></i> 100% JSS</span>
+                        <span><i class="fas fa-check-circle"></i> 30+ Contracts</span>
+                    </div>
+                    <button class="platform-btn">View Profile</button>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/muhammadsudaisai/" class="platform-card" target="_blank" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="platform-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Professional Network</p>
+                    <div class="platform-stats">
+                        <span><i class="fas fa-users"></i> 500+ Connections</span>
+                        <span><i class="fas fa-bullhorn"></i> Available for Hire</span>
+                    </div>
+                    <button class="platform-btn">Connect</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tech Stack -->
+    <section class="tech-stack-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Tech <span class="highlight">Stack</span></h2>
+                <p class="section-subtitle">Click on any technology to see details</p>
+            </div>
+            
+            <div class="tech-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="languages">Languages</button>
+                    <button class="tab-btn" data-tab="frameworks">Frameworks</button>
+                    <button class="tab-btn" data-tab="tools">Tools</button>
+                    <button class="tab-btn" data-tab="databases">Databases</button>
+                </div>
+                
+                <div class="tab-content active" id="languages">
+                    <div class="tech-grid">
+                        <div class="tech-item" data-tech="python">
+                            <div class="tech-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h3>Python</h3>
+                            <div class="tech-details">
+                                <p><strong>Expert Level</strong></p>
+                                <p>Data Science, ML, Automation, Web Development</p>
+                                <div class="tech-projects">
+                                    <span>150+ Projects</span>
+                                </div>
+                            </div>
+                            <div class="tech-overlay">
+                                <h4>Python Projects</h4>
+                                <ul>
+                                    <li>Machine Learning Models</li>
+                                    <li>Django/Flask Web Apps</li>
+                                    <li>Data Analysis Scripts</li>
+                                    <li>Automation Tools</li>
+                                    <li>APIs and Microservices</li>
+                                    <li>Data Visualization</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item" data-tech="java">
+                            <div class="tech-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <h3>Java</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>Spring Boot, Android, Enterprise Apps</p>
+                                <div class="tech-projects">
+                                    <span>80+ Projects</span>
+                                </div>
+                            </div>
+                            <div class="tech-overlay">
+                                <h4>Java Projects</h4>
+                                <ul>
+                                    <li>Spring Boot Microservices</li>
+                                    <li>Android Applications</li>
+                                    <li>Enterprise Software</li>
+                                    <li>REST APIs Development</li>
+                                    <li>Desktop Applications</li>
+                                    <li>E-commerce Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item" data-tech="cpp">
+                            <div class="tech-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3>C++</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>System Programming, Game Dev, Performance</p>
+                                <div class="tech-projects">
+                                    <span>40+ Projects</span>
+                                </div>
+                            </div>
+                            <div class="tech-overlay">
+                                <h4>C++ Projects</h4>
+                                <ul>
+                                    <li>Game Development</li>
+                                    <li>System Software</li>
+                                    <li>Performance-critical Apps</li>
+                                    <li>Computer Vision Systems</li>
+                                    <li>Real-time Applications</li>
+                                    <li>Embedded Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item" data-tech="javascript">
+                            <div class="tech-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div class="tech-details">
+                                <p><strong>Intermediate Level</strong></p>
+                                <p>React, Node.js, Frontend Development</p>
+                                <div class="tech-projects">
+                                    <span>60+ Projects</span>
+                                </div>
+                            </div>
+                            <div class="tech-overlay">
+                                <h4>JS Projects</h4>
+                                <ul>
+                                    <li>React Applications</li>
+                                    <li>Node.js APIs</li>
+                                    <li>Interactive Websites</li>
+                                    <li>Chrome Extensions</li>
+                                    <li>Real-time Applications</li>
+                                    <li>Single Page Applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frameworks Tab -->
+                <div class="tab-content" id="frameworks">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <h3>TensorFlow</h3>
+                            <div class="tech-details">
+                                <p><strong>Expert Level</strong></p>
+                                <p>Deep Learning, Neural Networks, AI Models</p>
+                                <div class="tech-projects">
+                                    <span>45+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h3>React.js</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>Frontend Development, UI Components</p>
+                                <div class="tech-projects">
+                                    <span>35+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Spring Boot</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>Java Backend, Microservices, REST APIs</p>
+                                <div class="tech-projects">
+                                    <span>25+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3>FastAPI</h3>
+                            <div class="tech-details">
+                                <p><strong>Intermediate Level</strong></p>
+                                <p>Python APIs, Async, High Performance</p>
+                                <div class="tech-projects">
+                                    <span>20+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools Tab -->
+                <div class="tab-content" id="tools">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <h3>Docker</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>Containerization, Deployment, CI/CD</p>
+                                <div class="tech-projects">
+                                    <span>30+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <h3>Git</h3>
+                            <div class="tech-details">
+                                <p><strong>Expert Level</strong></p>
+                                <p>Version Control, Collaboration, DevOps</p>
+                                <div class="tech-projects">
+                                    <span>200+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>AWS</h3>
+                            <div class="tech-details">
+                                <p><strong>Intermediate Level</strong></p>
+                                <p>Cloud Computing, Deployment, Services</p>
+                                <div class="tech-projects">
+                                    <span>15+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>PostgreSQL</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>Database Management, Optimization</p>
+                                <div class="tech-projects">
+                                    <span>40+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Databases Tab -->
+                <div class="tab-content" id="databases">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>MySQL</h3>
+                            <div class="tech-details">
+                                <p><strong>Expert Level</strong></p>
+                                <p>Relational Databases, SQL Queries</p>
+                                <div class="tech-projects">
+                                    <span>70+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>MongoDB</h3>
+                            <div class="tech-details">
+                                <p><strong>Advanced Level</strong></p>
+                                <p>NoSQL, Document Databases, Scalability</p>
+                                <div class="tech-projects">
+                                    <span>25+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>Firebase</h3>
+                            <div class="tech-details">
+                                <p><strong>Intermediate Level</strong></p>
+                                <p>Realtime Database, Authentication</p>
+                                <div class="tech-projects">
+                                    <span>15+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3>Redis</h3>
+                            <div class="tech-details">
+                                <p><strong>Intermediate Level</strong></p>
+                                <p>Caching, Session Management, Performance</p>
+                                <div class="tech-projects">
+                                    <span>10+ Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Services -->
+    <section class="services-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">AI <span class="highlight">Services</span></h2>
+                <p class="section-subtitle">Specialized solutions for different needs</p>
+            </div>
+            
+            <div class="services-tabs">
+                <div class="service-categories">
+                    <button class="category-btn active" data-category="ml">
+                        <i class="fas fa-brain"></i>
+                        <span>Machine Learning</span>
+                    </button>
+                    <button class="category-btn" data-category="cv">
+                        <i class="fas fa-eye"></i>
+                        <span>Computer Vision</span>
+                    </button>
+                    <button class="category-btn" data-category="nlp">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>NLP Solutions</span>
+                    </button>
+                    <button class="category-btn" data-category="web">
+                        <i class="fas fa-code"></i>
+                        <span>Web Development</span>
+                    </button>
+                    <button class="category-btn" data-category="data">
+                        <i class="fas fa-database"></i>
+                        <span>Data Science</span>
+                    </button>
+                </div>
+                
+                <div class="services-content">
+                    <!-- Machine Learning Services -->
+                    <div class="service-category active" id="ml">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Machine Learning Solutions</h2>
+                                <p>Building intelligent systems that learn from data and improve over time</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3>Predictive Analytics</h3>
+                                <p>Forecast trends and behaviors using historical data</p>
+                                <ul>
+                                    <li>Sales Prediction Models</li>
+                                    <li>Customer Behavior Analysis</li>
+                                    <li>Risk Assessment Systems</li>
+                                    <li>Market Trend Forecasting</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Recommendation Systems</h3>
+                                <p>Personalized content and product recommendations</p>
+                                <ul>
+                                    <li>E-commerce Recommendations</li>
+                                    <li>Content Personalization</li>
+                                    <li>Movie/Music Suggestions</li>
+                                    <li>Product Recommendation Engines</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h3>Data Mining & Analysis</h3>
+                                <p>Extract valuable insights from large datasets</p>
+                                <ul>
+                                    <li>Pattern Recognition</li>
+                                    <li>Anomaly Detection</li>
+                                    <li>Market Basket Analysis</li>
+                                    <li>Customer Segmentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#ml" class="btn-primary">
+                                <i class="fas fa-code"></i> View ML Projects
+                            </a>
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for ML Project
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Computer Vision Services -->
+                    <div class="service-category" id="cv">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Computer Vision</h2>
+                                <p>Enabling machines to see, understand, and interpret visual information</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <h3>Image Recognition</h3>
+                                <p>Identify and classify objects in images</p>
+                                <ul>
+                                    <li>Object Detection</li>
+                                    <li>Face Recognition</li>
+                                    <li>Image Classification</li>
+                                    <li>Visual Search Engines</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <h3>Video Analysis</h3>
+                                <p>Real-time video processing and analysis</p>
+                                <ul>
+                                    <li>Motion Detection</li>
+                                    <li>Activity Recognition</li>
+                                    <li>Video Surveillance Systems</li>
+                                    <li>Real-time Processing</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-stethoscope"></i>
+                                </div>
+                                <h3>Medical Imaging</h3>
+                                <p>AI-powered medical image analysis</p>
+                                <ul>
+                                    <li>X-ray Analysis</li>
+                                    <li>MRI/CT Scan Processing</li>
+                                    <li>Disease Detection</li>
+                                    <li>Medical Diagnosis Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#cv" class="btn-primary">
+                                <i class="fas fa-code"></i> View CV Projects
+                            </a>
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for CV Project
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- NLP Services -->
+                    <div class="service-category" id="nlp">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Natural Language Processing</h2>
+                                <p>Teaching machines to understand and process human language</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Chatbots & Virtual Assistants</h3>
+                                <p>Intelligent conversational agents</p>
+                                <ul>
+                                    <li>Customer Support Chatbots</li>
+                                    <li>Virtual Assistants</li>
+                                    <li>AI-powered Help Desks</li>
+                                    <li>Conversational AI</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                                <h3>Text Analysis</h3>
+                                <p>Extract insights from textual data</p>
+                                <ul>
+                                    <li>Sentiment Analysis</li>
+                                    <li>Text Classification</li>
+                                    <li>Named Entity Recognition</li>
+                                    <li>Topic Modeling</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <h3>Language Translation</h3>
+                                <p>Machine translation and language conversion</p>
+                                <ul>
+                                    <li>Multi-language Translation</li>
+                                    <li>Real-time Translation</li>
+                                    <li>Document Translation</li>
+                                    <li>Language Detection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#nlp" class="btn-primary">
+                                <i class="fas fa-code"></i> View NLP Projects
+                            </a>
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for NLP Project
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Development Services -->
+                    <div class="service-category" id="web">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Web Development</h2>
+                                <p>Building modern, responsive, and scalable web applications</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3>Full-Stack Development</h3>
+                                <p>Complete web application development</p>
+                                <ul>
+                                    <li>Frontend Development</li>
+                                    <li>Backend Development</li>
+                                    <li>Database Design</li>
+                                    <li>API Integration</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h3>Responsive Design</h3>
+                                <p>Mobile-friendly websites and applications</p>
+                                <ul>
+                                    <li>Mobile-first Approach</li>
+                                    <li>Cross-browser Compatibility</li>
+                                    <li>Progressive Web Apps</li>
+                                    <li>UI/UX Design</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <h3>Performance Optimization</h3>
+                                <p>Fast and efficient web applications</p>
+                                <ul>
+                                    <li>Speed Optimization</li>
+                                    <li>SEO Implementation</li>
+                                    <li>Security Enhancement</li>
+                                    <li>Scalability Solutions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#web" class="btn-primary">
+                                <i class="fas fa-code"></i> View Web Projects
+                            </a>
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for Web Project
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Data Science Services -->
+                    <div class="service-category" id="data">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Data Science</h2>
+                                <p>Transforming raw data into actionable insights</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <h3>Data Analysis & Visualization</h3>
+                                <p>Comprehensive data analysis and visual representation</p>
+                                <ul>
+                                    <li>Exploratory Data Analysis</li>
+                                    <li>Statistical Analysis</li>
+                                    <li>Interactive Dashboards</li>
+                                    <li>Business Intelligence</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <h3>Data Pipeline Development</h3>
+                                <p>Building efficient data processing systems</p>
+                                <ul>
+                                    <li>ETL Pipelines</li>
+                                    <li>Data Warehousing</li>
+                                    <li>Real-time Data Processing</li>
+                                    <li>Big Data Solutions</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3>Business Insights</h3>
+                                <p>Data-driven decision making</p>
+                                <ul>
+                                    <li>KPI Development</li>
+                                    <li>Performance Metrics</li>
+                                    <li>Predictive Business Analytics</li>
+                                    <li>Strategic Planning Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="services.html#data" class="btn-primary">
+                                <i class="fas fa-code"></i> View Data Projects
+                            </a>
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for Data Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Projects from Freelancer -->
+    <section class="projects-section" data-aos="fade-up">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-left">
+                    <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+                    <p class="section-subtitle">Real projects delivered on freelance platforms</p>
+                </div>
+                <div class="header-right">
+                    <a href="portfolio.html" class="view-all">
+                        View All Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 - From Freelancer -->
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-badge">
+                        <i class="fab fa-python"></i>
+                        <span>Freelancer.com</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Medical AI">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$1,500</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Image Analysis AI</h3>
+                        <p class="project-desc">Built CNN model for X-ray classification with 98% accuracy for healthcare client</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Healthcare Client</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2 weeks delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">CNN</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - From Fiverr -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>Fiverr</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Chatbot">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$800</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Customer Support Chatbot</h3>
+                        <p class="project-desc">NLP-powered chatbot handling 10k+ daily queries for e-commerce business</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>E-commerce Business</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>1 week delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Dialogflow</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>4.8/5.0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - From Upwork -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-badge">
+                        <i class="fab fa-java"></i>
+                        <span>Upwork</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="E-commerce">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$2,500</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Recommendation System</h3>
+                        <p class="project-desc">Increased sales by 35% with personalized recommendations for retail company</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Retail Company</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>3 weeks delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">ML Algorithms</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - Face Recognition -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-badge">
+                        <i class="fas fa-camera"></i>
+                        <span>Freelancer.com</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Face Recognition">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$1,200</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition Security System</h3>
+                        <p class="project-desc">Real-time face recognition system with 99% accuracy for office security</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Security Company</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>10 days delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Dlib</span>
+                            <span class="tech-tag">Real-time</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-showcase">
+                <div class="showcase-stats">
+                    <div class="stat-box">
+                        <h3>$50k+</h3>
+                        <p>Earned on Platforms</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>98%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>100%</h3>
+                        <p>On-Time Delivery</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+                
+                <div class="platforms-logos">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Freelancer_logo.svg/2560px-Freelancer_logo.svg.png" alt="Freelancer" height="35">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Fiverr_Logo.svg/2560px-Fiverr_Logo.svg.png" alt="Fiverr" height="35">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Upwork_Logo.svg/2560px-Upwork_Logo.svg.png" alt="Upwork" height="35">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" alt="LinkedIn" height="35">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta" id="contact" data-aos="fade-up">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Let's discuss your requirements and get started immediately</p>
+                    
+                    <div class="contact-methods">
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div>
+                                <h4>Freelancer.com</h4>
+                                <p>Post your project for free</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        
+                        <a href="https://wa.me/923474810818" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>Instant chat +92 347 4810818</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        
+                        <a href="mailto:sudaisoo72@gmail.com" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>sudaisoo72@gmail.com</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        
+                        <a href="https://calendly.com/muhammadsudais/consultation" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div>
+                                <h4>Schedule Call</h4>
+                                <p>Book a 30-minute consultation</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="cta-form">
+                    <h3>Quick Inquiry</h3>
+                    <form id="quickForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Service</option>
+                                <option value="ml">Machine Learning</option>
+                                <option value="cv">Computer Vision</option>
+                                <option value="nlp">NLP Solutions</option>
+                                <option value="web">Web Development</option>
+                                <option value="data">Data Science</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Project Details" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                            <span class="logo-tag">AI FREELANCER</span>
+                        </div>
+                    </a>
+                    <p>Professional AI/ML Freelancer with 5+ years experience. 
+                    Available on all major freelance platforms for your projects.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/MuhammadSudaisAI" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammadsudaisai/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" target="_blank" title="Freelancer">
+                            <i class="fas fa-laptop-code"></i>
+                        </a>
+                        <a href="https://www.fiverr.com/sudais_ai" target="_blank" title="Fiverr">
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                        <a href="https://www.upwork.com/freelancers/~01a1b1c1d1e1f1a1b1" target="_blank" title="Upwork">
+                            <i class="fab fa-upwork"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#ml"><i class="fas fa-chevron-right"></i> Machine Learning</a></li>
+                        <li><a href="services.html#cv"><i class="fas fa-chevron-right"></i> Computer Vision</a></li>
+                        <li><a href="services.html#nlp"><i class="fas fa-chevron-right"></i> NLP Solutions</a></li>
+                        <li><a href="services.html#web"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="services.html#data"><i class="fas fa-chevron-right"></i> Data Science</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Me</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="chatbot.html"><i class="fas fa-chevron-right"></i> AI Chatbot</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>City Line 10, Street 5<br>Bakhtawar, Islamabad</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+92 347 4810818</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>sudaisoo72@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-cta">
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-hire" target="_blank">
+                            <i class="fas fa-bolt"></i> Hire on Freelancer
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Muhammad Sudais AI. All rights reserved.</p>
+                    <p>Professional AI/ML Freelancer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Modal -->
+    <div class="chatbot-modal" id="chatbotModal">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i>
+                <h3>AI Assistant</h3>
+                <span class="status online">Online</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-replies">
+                <button class="quick-reply" data-reply="services">What services do you offer?</button>
+                <button class="quick-reply" data-reply="pricing">What are your rates?</button>
+                <button class="quick-reply" data-reply="portfolio">Show me your portfolio</button>
+                <button class="quick-reply" data-reply="contact">How to contact you?</button>
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="sendMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <!-- Main Script -->
+    <script src="script.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+        
+        // Typing Effect
+        const typed = new Typed('#typed-output', {
+            strings: ['Freelancer', 'Python Expert', 'Java Developer', 'AI Specialist', 'ML Engineer'],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|'
+        });
+        
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            document.body.classList.toggle('light-theme');
+            
+            const iconSun = themeToggle.querySelector('.fa-sun');
+            const iconMoon = themeToggle.querySelector('.fa-moon');
+            
+            if (document.body.classList.contains('light-theme')) {
+                iconSun.style.opacity = '0';
+                iconMoon.style.opacity = '1';
+            } else {
+                iconSun.style.opacity = '1';
+                iconMoon.style.opacity = '0';
+            }
+        });
+        
+        // Color Scheme Switcher
+        document.querySelectorAll('.color-scheme').forEach(scheme => {
+            scheme.addEventListener('click', function() {
+                const theme = this.getAttribute('data-theme');
+                applyColorScheme(theme);
+                localStorage.setItem('colorScheme', theme);
+            });
+        });
+        
+        function applyColorScheme(scheme) {
+            const root = document.documentElement;
+            
+            // Reset to default first
+            root.style.setProperty('--primary', '#6C63FF');
+            root.style.setProperty('--primary-dark', '#554FD8');
+            root.style.setProperty('--primary-light', '#8A85FF');
+            root.style.setProperty('--secondary', '#FF6584');
+            root.style.setProperty('--accent', '#36D1DC');
+            
+            switch(scheme) {
+                case 'purple':
+                    root.style.setProperty('--primary', '#8B5CF6');
+                    root.style.setProperty('--primary-dark', '#7C3AED');
+                    root.style.setProperty('--primary-light', '#A78BFA');
+                    root.style.setProperty('--secondary', '#EC4899');
+                    root.style.setProperty('--accent', '#8B5CF6');
+                    break;
+                case 'blue':
+                    root.style.setProperty('--primary', '#3B82F6');
+                    root.style.setProperty('--primary-dark', '#2563EB');
+                    root.style.setProperty('--primary-light', '#60A5FA');
+                    root.style.setProperty('--secondary', '#06B6D4');
+                    root.style.setProperty('--accent', '#3B82F6');
+                    break;
+                case 'green':
+                    root.style.setProperty('--primary', '#10B981');
+                    root.style.setProperty('--primary-dark', '#059669');
+                    root.style.setProperty('--primary-light', '#34D399');
+                    root.style.setProperty('--secondary', '#3B82F6');
+                    root.style.setProperty('--accent', '#10B981');
+                    break;
+                case 'orange':
+                    root.style.setProperty('--primary', '#F59E0B');
+                    root.style.setProperty('--primary-dark', '#D97706');
+                    root.style.setProperty('--primary-light', '#FBBF24');
+                    root.style.setProperty('--secondary', '#EF4444');
+                    root.style.setProperty('--accent', '#F59E0B');
+                    break;
+            }
+        }
+        
+        // Apply saved color scheme
+        const savedScheme = localStorage.getItem('colorScheme') || 'default';
+        applyColorScheme(savedScheme);
+        
+        // Chatbot Toggle
+        const chatbotToggle = document.getElementById('chatbotToggle');
+        const chatbotModal = document.getElementById('chatbotModal');
+        const chatbotClose = document.getElementById('chatbotClose');
+        
+        chatbotToggle.addEventListener('click', () => {
+            chatbotModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        chatbotClose.addEventListener('click', () => {
+            chatbotModal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        // Close chatbot on escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && chatbotModal.classList.contains('active')) {
+                chatbotModal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+        
+        // Quick Replies
+        document.querySelectorAll('.quick-reply').forEach(button => {
+            button.addEventListener('click', function() {
+                const reply = this.getAttribute('data-reply');
+                sendBotResponse(reply);
+            });
+        });
+        
+        // Send Message
+        document.getElementById('sendMessage').addEventListener('click', sendUserMessage);
+        document.getElementById('chatInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') sendUserMessage();
+        });
+        
+        function sendUserMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (message) {
+                addMessage(message, 'user');
+                input.value = '';
+                
+                // Simulate bot response
+                setTimeout(() => {
+                    const responses = {
+                        'hello': 'Hello! 👋 How can I assist you today?',
+                        'hi': 'Hi there! 😊 How can I help you?',
+                        'services': 'I offer a wide range of AI/ML services:\n\n• Machine Learning Solutions\n• Computer Vision\n• NLP & Chatbots\n• Web Development\n• Data Analysis\n\nWhich service interests you?',
+                        'pricing': 'My rates are flexible based on project requirements:\n\n• Hourly: $25-$50/hour\n• Fixed Price: Project-based quotes\n• Maintenance: Monthly retainer options\n\nContact me for a detailed quote!',
+                        'portfolio': 'You can view my portfolio here:\n\n• Freelancer: https://www.freelancer.com/u/MuhammadSudaisAI\n• Live Projects: Check the portfolio section on this website',
+                        'contact': 'You can contact me through:\n\n📱 WhatsApp: +92 347 4810818\n📧 Email: sudaisoo72@gmail.com\n💼 Freelancer: MuhammadSudaisAI\n💼 Fiverr: sudais_ai',
+                        'experience': 'I have 5+ years of experience in:\n\n• Python Development\n• Machine Learning\n• Java & C++\n• Web Technologies\n• AI/ML Solutions',
+                        'availability': 'I\'m available for:\n\n• Full-time Projects\n• Part-time Work\n• Consultation\n• Urgent Projects (24/7 support available)',
+                        'github': 'My GitHub profile: https://github.com/MuhammadSudaisAI\n\nYou can find my open-source projects and code samples there.',
+                        'location': 'I\'m based in Islamabad, Pakistan.\n\n📍 Bakhtawar, City Line 10, Street 5\n🌍 Available for remote work worldwide',
+                        'hire': 'To hire me:\n\n1. Post project on Freelancer\n2. Contact via WhatsApp\n3. Send email with requirements\n\nI respond within 24 hours!'
+                    };
+                    
+                    const lowerMessage = message.toLowerCase();
+                    let botReply = "Thanks for your message! I'll get back to you soon.";
+                    
+                    for (const [key, response] of Object.entries(responses)) {
+                        if (lowerMessage.includes(key)) {
+                            botReply = response;
+                            break;
+                        }
+                    }
+                    
+                    addMessage(botReply, 'bot');
+                }, 1000);
+            }
+        }
+        
+        function sendBotResponse(type) {
+            const responses = {
+                'services': 'I specialize in: 1) Machine Learning 2) Computer Vision 3) NLP 4) Web Development 5) Data Science. Which service are you interested in?',
+                'pricing': 'My hourly rate is $25-50 depending on project complexity. I also offer fixed-price projects. Would you like a custom quote?',
+                'portfolio': 'Check my recent projects in the portfolio section or visit: https://www.freelancer.com/u/MuhammadSudaisAI',
+                'contact': 'You can contact me via:\n\n📱 WhatsApp: +92 347 4810818\n📧 Email: sudaisoo72@gmail.com\n💼 Freelancer: MuhammadSudaisAI'
+            };
+            
+            addMessage(responses[type] || 'How can I help you?', 'bot');
+        }
+        
+        function addMessage(text, sender) {
+            const messages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const time = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            
+            // Replace newlines with <br> for better formatting
+            const formattedText = text.replace(/\n/g, '<br>');
+            
+            messageDiv.innerHTML = `
+                <div class="message-avatar">
+                    <i class="fas fa-${sender === 'bot' ? 'robot' : 'user'}"></i>
+                </div>
+                <div class="message-content">
+                    <p>${formattedText}</p>
+                    <span class="message-time">${time}</span>
+                </div>
+            `;
+            
+            messages.appendChild(messageDiv);
+            messages.scrollTop = messages.scrollHeight;
+        }
+        
+        // Tech Stack Interactive
+        document.querySelectorAll('.tech-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.tech-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        
+        // Tab Switching
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const tab = this.getAttribute('data-tab');
+                
+                // Update active tab button
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show selected tab content
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(tab).classList.add('active');
+                
+                // Reset tech items
+                document.querySelectorAll('.tech-item').forEach(item => item.classList.remove('active'));
+            });
+        });
+        
+        // Service Categories
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const category = this.getAttribute('data-category');
+                
+                // Update active button
+                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show selected category
+                document.querySelectorAll('.service-category').forEach(cat => {
+                    cat.classList.remove('active');
+                });
+                document.getElementById(category).classList.add('active');
+            });
+        });
+        
+        // Form Submission
+        document.getElementById('quickForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show loading state
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                // Show success message
+                showNotification('Message sent successfully! I will contact you within 24 hours.', 'success');
+                
+                // Reset form
+                this.reset();
+                
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 1500);
+        });
+        
+        // Notification function
+        function showNotification(message, type = 'success') {
+            // Remove existing notifications
+            const existing = document.querySelector('.notification');
+            if (existing) existing.remove();
+            
+            // Create notification
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.innerHTML = `
+                <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'}"></i>
+                <span>${message}</span>
+                <button class="notification-close"><i class="fas fa-times"></i></button>
+            `;
+            
+            // Add styles
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'success' ? '#4CAF50' : '#FF5252'};
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                z-index: 99999;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                animation: slideInRight 0.3s ease;
+                max-width: 400px;
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Close button
+            notification.querySelector('.notification-close').addEventListener('click', () => {
+                notification.remove();
+            });
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.style.animation = 'slideOutRight 0.3s ease';
+                    setTimeout(() => notification.remove(), 300);
+                }
+            }, 5000);
+        }
+        
+        // Auto-open chatbot on first visit
+        if (!localStorage.getItem('chatbotShown')) {
+            setTimeout(() => {
+                chatbotModal.classList.add('active');
+                localStorage.setItem('chatbotShown', 'true');
+            }, 3000);
+        }
+        
+        // Navigation toggle for mobile
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+        });
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+        
+        // Scroll effect for navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.glass-nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                
+                if (href === '#') return;
+                
+                e.preventDefault();
+                const target = document.querySelector(href);
+                
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

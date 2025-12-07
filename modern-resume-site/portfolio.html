@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhammad Sudais AI - Projects & Case Studies</title>
+    <meta name="description" content="View my portfolio of AI/ML projects, web development work, and successful freelance deliveries">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Chatbot Toggle -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-robot"></i>
+        <span class="chat-notification">1</span>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/923474810818" class="whatsapp-float left" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                    <span class="logo-tag">AI FREELANCER</span>
+                </div>
+            </a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user-tie"></i> About</a></li>
+                <li><a href="services.html"><i class="fas fa-code"></i> Services</a></li>
+                <li><a href="portfolio.html" class="active"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="nav-cta">
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-hire" target="_blank">
+                        <i class="fas fa-bolt"></i> Hire Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero -->
+    <section class="ai-hero" style="padding: 150px 0 80px;">
+        <div class="container">
+            <div class="hero-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <div class="freelancer-badge">
+                    <i class="fas fa-briefcase"></i>
+                    <span>PROJECT PORTFOLIO</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="gradient-text">My Projects</span>
+                    <span class="typed-text">& Case Studies</span>
+                </h1>
+                
+                <p class="hero-desc">
+                    Showcasing <strong>200+ successful projects</strong> delivered across 
+                    <span class="highlight">Freelancer</span>, 
+                    <span class="highlight">Fiverr</span>, and 
+                    <span class="highlight">Upwork</span>. 
+                    Real solutions for real clients.
+                </p>
+                
+                <div class="hero-actions" style="justify-content: center;">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-eye"></i> View Projects
+                    </a>
+                    <a href="https://github.com/sudais-ai" class="btn-secondary" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="contact.html" class="btn-outline">
+                        <i class="fas fa-envelope"></i> Request Similar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Stats -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Portfolio <span class="highlight">Stats</span></h2>
+                <p class="section-subtitle">Numbers that speak for themselves</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">On-Time Delivery</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="tech-stack-section" id="projects">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Filter projects by category or platform</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="freelancer">Freelancer</button>
+                <button class="filter-btn" data-filter="fiverr">Fiverr</button>
+                <button class="filter-btn" data-filter="upwork">Upwork</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 - Medical AI -->
+                <div class="project-card" data-category="ml cv freelancer">
+                    <div class="project-badge">
+                        <i class="fab fa-python"></i>
+                        <span>Freelancer.com</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Medical AI">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$1,500</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Image Analysis AI</h3>
+                        <p class="project-desc">Built CNN model for X-ray classification with 98% accuracy for healthcare client</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Healthcare Client</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2 weeks delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">CNN</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 - AI Chatbot -->
+                <div class="project-card" data-category="nlp fiverr">
+                    <div class="project-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>Fiverr</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Chatbot">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$800</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Customer Support Chatbot</h3>
+                        <p class="project-desc">NLP-powered chatbot handling 10k+ daily queries for e-commerce business</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>E-commerce Business</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>1 week delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Dialogflow</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>4.8/5.0</span>
+                        </div>
+                        <a href="https://www.fiverr.com/sudais_ai" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 - E-commerce Recommender -->
+                <div class="project-card" data-category="ml web upwork">
+                    <div class="project-badge">
+                        <i class="fab fa-java"></i>
+                        <span>Upwork</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="E-commerce">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$2,500</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Recommendation System</h3>
+                        <p class="project-desc">Increased sales by 35% with personalized recommendations for retail company</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Retail Company</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>3 weeks delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">ML Algorithms</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                        <a href="https://www.upwork.com/freelancers/~01a1b1c1d1e1f1a1b1" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 - Face Recognition -->
+                <div class="project-card" data-category="cv freelancer">
+                    <div class="project-badge">
+                        <i class="fas fa-camera"></i>
+                        <span>Freelancer.com</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Face Recognition">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$1,200</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face Recognition Security System</h3>
+                        <p class="project-desc">Real-time face recognition system with 99% accuracy for office security</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Security Company</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>10 days delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Dlib</span>
+                            <span class="tech-tag">Real-time</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 - Sentiment Analysis -->
+                <div class="project-card" data-category="nlp fiverr">
+                    <div class="project-badge">
+                        <i class="fas fa-comment"></i>
+                        <span>Fiverr</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sentiment Analysis">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$600</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media Sentiment Analysis</h3>
+                        <p class="project-desc">Real-time sentiment analysis tool for brand monitoring on social media</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Marketing Agency</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>1 week delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">Twitter API</span>
+                            <span class="tech-tag">Dashboard</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>4.7/5.0</span>
+                        </div>
+                        <a href="https://www.fiverr.com/sudais_ai" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 - Web Application -->
+                <div class="project-card" data-category="web upwork">
+                    <div class="project-badge">
+                        <i class="fab fa-js"></i>
+                        <span>Upwork</span>
+                    </div>
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Web App">
+                        <div class="project-overlay">
+                            <span>Completed</span>
+                            <span>$3,000</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Enterprise Web Application</h3>
+                        <p class="project-desc">Full-stack web application with user management and reporting system</p>
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-user"></i>
+                                <span>Tech Startup</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>4 weeks delivery</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>5.0/5.0</span>
+                        </div>
+                        <a href="https://www.upwork.com/freelancers/~01a1b1c1d1e1f1a1b1" class="btn-outline" target="_blank" style="width: 100%; text-align: center; margin-top: 15px;">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More Button -->
+            <div style="text-align: center; margin-top: 60px;">
+                <button class="btn-primary" id="loadMore">
+                    <i class="fas fa-sync-alt"></i> Load More Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="services-section" style="background: var(--dark);">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Client <span class="highlight">Testimonials</span></h2>
+                <p class="section-subtitle">What clients say about working with me</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client">
+                        </div>
+                        <div class="client-info">
+                            <h4>John Smith</h4>
+                            <p>CEO, Tech Solutions Inc.</p>
+                        </div>
+                        <div class="platform">
+                            <i class="fab fa-freelancer"></i>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Outstanding work! Muhammad delivered our medical AI project ahead of schedule with exceptional quality. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client">
+                        </div>
+                        <div class="client-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                        <div class="platform">
+                            <i class="fab fa-fiverr"></i>
+                            <span>Fiverr</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The chatbot Muhammad built for us handles 10k+ queries daily. Excellent communication and quick delivery. Will hire again!"</p>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client">
+                        </div>
+                        <div class="client-info">
+                            <h4>Michael Brown</h4>
+                            <p>CTO, Retail Chain</p>
+                        </div>
+                        <div class="platform">
+                            <i class="fab fa-upwork"></i>
+                            <span>Upwork</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Our sales increased by 35% after implementing the recommendation system. Professional and skilled developer."</p>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Projects -->
+    <section class="tech-stack-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">GitHub <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Open-source projects and code samples</p>
+            </div>
+            
+            <div class="projects-grid" id="githubProjects">
+                <!-- GitHub projects will be loaded here -->
+                <div style="text-align: center; padding: 40px;">
+                    <div class="spinner">
+                        <i class="fas fa-spinner fa-spin fa-3x"></i>
+                        <p>Loading GitHub projects...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://github.com/sudais-ai" class="btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> View All on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2>Have a Similar Project in Mind?</h2>
+                <p>Let's discuss your requirements and create something amazing together.</p>
+                
+                <div class="hero-actions" style="justify-content: center; margin-top: 40px;">
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                        <i class="fas fa-bolt"></i> Post Your Project
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-envelope"></i> Send Details
+                    </a>
+                    <a href="https://wa.me/923474810818" class="btn-outline" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Quick Chat
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                            <span class="logo-tag">AI FREELANCER</span>
+                        </div>
+                    </a>
+                    <p>Professional AI/ML Freelancer with 5+ years experience. 
+                    Available on all major freelance platforms for your projects.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/sudais-ai" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammadsudaisai/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" target="_blank" title="Freelancer">
+                            <i class="fas fa-laptop-code"></i>
+                        </a>
+                        <a href="https://www.fiverr.com/sudais_ai" target="_blank" title="Fiverr">
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#ml"><i class="fas fa-chevron-right"></i> Machine Learning</a></li>
+                        <li><a href="services.html#cv"><i class="fas fa-chevron-right"></i> Computer Vision</a></li>
+                        <li><a href="services.html#nlp"><i class="fas fa-chevron-right"></i> NLP Solutions</a></li>
+                        <li><a href="services.html#web"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>City Line 10, Street 5<br>Bakhtawar, Islamabad</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+92 347 4810818</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>sudaisoo72@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Muhammad Sudais AI. All rights reserved.</p>
+                    <p>Professional AI/ML Freelancer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Modal -->
+    <div class="chatbot-modal" id="chatbotModal">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i>
+                <h3>AI Assistant</h3>
+                <span class="status online">Online</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-replies">
+                <button class="quick-reply" data-reply="portfolio">Show me your portfolio</button>
+                <button class="quick-reply" data-reply="projects">What type of projects?</button>
+                <button class="quick-reply" data-reply="contact">How to contact you?</button>
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="sendMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        // Initialize for this page
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+        
+        // Typing effect
+        const typed = new Typed('.typed-text', {
+            strings: ['& Case Studies', 'Real Results', 'Client Success', 'Technical Excellence'],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+        
+        // Filter projects
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active filter button
+                filterButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter projects
+                projectCards.forEach(card => {
+                    const categories = card.getAttribute('data-category').split(' ');
+                    
+                    if (filter === 'all' || categories.includes(filter)) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 10);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+        
+        // Load more projects
+        document.getElementById('loadMore')?.addEventListener('click', function() {
+            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+            this.disabled = true;
+            
+            // Simulate loading
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-check"></i> All Projects Loaded';
+                showNotification('All projects are now displayed!', 'success');
+            }, 1500);
+        });
+    </script>
+</body>
+</html>

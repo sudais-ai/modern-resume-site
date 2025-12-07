@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Muhammad Sudais AI - AI/ML Solutions</title>
+    <meta name="description" content="Professional AI/ML Services: Machine Learning, Computer Vision, NLP, Web Development by Muhammad Sudais AI">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Chatbot Toggle -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-robot"></i>
+        <span class="chat-notification">1</span>
+    </div>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/923474810818" class="whatsapp-float left" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                    <span class="logo-tag">AI FREELANCER</span>
+                </div>
+            </a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user-tie"></i> About</a></li>
+                <li><a href="services.html" class="active"><i class="fas fa-code"></i> Services</a></li>
+                <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="nav-cta">
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-hire" target="_blank">
+                        <i class="fas fa-bolt"></i> Hire Now
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Hero -->
+    <section class="ai-hero" style="padding: 150px 0 80px;">
+        <div class="container">
+            <div class="hero-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <div class="freelancer-badge">
+                    <i class="fas fa-code"></i>
+                    <span>PROFESSIONAL SERVICES</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="gradient-text">AI & ML Solutions</span>
+                    <span class="typed-text">That Drive Results</span>
+                </h1>
+                
+                <p class="hero-desc">
+                    Comprehensive <strong>AI/ML services</strong> tailored to your business needs. 
+                    From <span class="highlight">Machine Learning models</span> to 
+                    <span class="highlight">Computer Vision systems</span> and 
+                    <span class="highlight">NLP solutions</span> - I deliver cutting-edge technology.
+                </p>
+                
+                <div class="hero-actions" style="justify-content: center;">
+                    <a href="#pricing" class="btn-primary">
+                        <i class="fas fa-tag"></i> View Pricing
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-calendar"></i> Book Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Services -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+                <p class="section-subtitle">Comprehensive AI/ML solutions for every need</p>
+            </div>
+            
+            <div class="services-tabs">
+                <div class="service-categories">
+                    <button class="category-btn active" data-category="ml">
+                        <i class="fas fa-brain"></i>
+                        <span>Machine Learning</span>
+                    </button>
+                    <button class="category-btn" data-category="cv">
+                        <i class="fas fa-eye"></i>
+                        <span>Computer Vision</span>
+                    </button>
+                    <button class="category-btn" data-category="nlp">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>NLP Solutions</span>
+                    </button>
+                    <button class="category-btn" data-category="web">
+                        <i class="fas fa-code"></i>
+                        <span>Web Development</span>
+                    </button>
+                    <button class="category-btn" data-category="data">
+                        <i class="fas fa-database"></i>
+                        <span>Data Science</span>
+                    </button>
+                </div>
+                
+                <div class="services-content">
+                    <!-- Machine Learning -->
+                    <div class="service-category active" id="ml">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Machine Learning Solutions</h2>
+                                <p>Building intelligent systems that learn from data and make predictions</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3>Predictive Analytics</h3>
+                                <p>Forecast trends and behaviors using historical data</p>
+                                <ul>
+                                    <li>Sales Prediction Models</li>
+                                    <li>Customer Behavior Analysis</li>
+                                    <li>Risk Assessment Systems</li>
+                                    <li>Market Trend Forecasting</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Recommendation Systems</h3>
+                                <p>Personalized content and product recommendations</p>
+                                <ul>
+                                    <li>E-commerce Recommendations</li>
+                                    <li>Content Personalization</li>
+                                    <li>Movie/Music Suggestions</li>
+                                    <li>Product Recommendation Engines</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h3>Data Mining & Analysis</h3>
+                                <p>Extract valuable insights from large datasets</p>
+                                <ul>
+                                    <li>Pattern Recognition</li>
+                                    <li>Anomaly Detection</li>
+                                    <li>Market Basket Analysis</li>
+                                    <li>Customer Segmentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for ML Project
+                            </a>
+                            <a href="portfolio.html" class="btn-outline">
+                                <i class="fas fa-eye"></i> View ML Projects
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Computer Vision -->
+                    <div class="service-category" id="cv">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Computer Vision</h2>
+                                <p>Enabling machines to see, understand, and interpret visual information</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <h3>Image Recognition</h3>
+                                <p>Identify and classify objects in images</p>
+                                <ul>
+                                    <li>Object Detection</li>
+                                    <li>Face Recognition</li>
+                                    <li>Image Classification</li>
+                                    <li>Visual Search Engines</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <h3>Video Analysis</h3>
+                                <p>Real-time video processing and analysis</p>
+                                <ul>
+                                    <li>Motion Detection</li>
+                                    <li>Activity Recognition</li>
+                                    <li>Video Surveillance Systems</li>
+                                    <li>Real-time Processing</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-stethoscope"></i>
+                                </div>
+                                <h3>Medical Imaging</h3>
+                                <p>AI-powered medical image analysis</p>
+                                <ul>
+                                    <li>X-ray Analysis</li>
+                                    <li>MRI/CT Scan Processing</li>
+                                    <li>Disease Detection</li>
+                                    <li>Medical Diagnosis Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for CV Project
+                            </a>
+                            <a href="portfolio.html" class="btn-outline">
+                                <i class="fas fa-eye"></i> View CV Projects
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- NLP Solutions -->
+                    <div class="service-category" id="nlp">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Natural Language Processing</h2>
+                                <p>Teaching machines to understand and process human language</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Chatbots & Virtual Assistants</h3>
+                                <p>Intelligent conversational agents</p>
+                                <ul>
+                                    <li>Customer Support Chatbots</li>
+                                    <li>Virtual Assistants</li>
+                                    <li>AI-powered Help Desks</li>
+                                    <li>Conversational AI</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                                <h3>Text Analysis</h3>
+                                <p>Extract insights from textual data</p>
+                                <ul>
+                                    <li>Sentiment Analysis</li>
+                                    <li>Text Classification</li>
+                                    <li>Named Entity Recognition</li>
+                                    <li>Topic Modeling</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <h3>Language Translation</h3>
+                                <p>Machine translation and language conversion</p>
+                                <ul>
+                                    <li>Multi-language Translation</li>
+                                    <li>Real-time Translation</li>
+                                    <li>Document Translation</li>
+                                    <li>Language Detection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for NLP Project
+                            </a>
+                            <a href="chatbot.html" class="btn-outline">
+                                <i class="fas fa-robot"></i> Try My Chatbot
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Development -->
+                    <div class="service-category" id="web">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Web Development</h2>
+                                <p>Building modern, responsive, and scalable web applications</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3>Full-Stack Development</h3>
+                                <p>Complete web application development</p>
+                                <ul>
+                                    <li>Frontend Development</li>
+                                    <li>Backend Development</li>
+                                    <li>Database Design</li>
+                                    <li>API Integration</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h3>Responsive Design</h3>
+                                <p>Mobile-friendly websites and applications</p>
+                                <ul>
+                                    <li>Mobile-first Approach</li>
+                                    <li>Cross-browser Compatibility</li>
+                                    <li>Progressive Web Apps</li>
+                                    <li>UI/UX Design</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <h3>Performance Optimization</h3>
+                                <p>Fast and efficient web applications</p>
+                                <ul>
+                                    <li>Speed Optimization</li>
+                                    <li>SEO Implementation</li>
+                                    <li>Security Enhancement</li>
+                                    <li>Scalability Solutions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for Web Project
+                            </a>
+                            <a href="portfolio.html" class="btn-outline">
+                                <i class="fas fa-eye"></i> View Web Projects
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Data Science -->
+                    <div class="service-category" id="data">
+                        <div class="service-hero">
+                            <div class="service-icon-large">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="service-intro">
+                                <h2>Data Science</h2>
+                                <p>Transforming raw data into actionable insights</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <h3>Data Analysis & Visualization</h3>
+                                <p>Comprehensive data analysis and visual representation</p>
+                                <ul>
+                                    <li>Exploratory Data Analysis</li>
+                                    <li>Statistical Analysis</li>
+                                    <li>Interactive Dashboards</li>
+                                    <li>Business Intelligence</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <h3>Data Pipeline Development</h3>
+                                <p>Building efficient data processing systems</p>
+                                <ul>
+                                    <li>ETL Pipelines</li>
+                                    <li>Data Warehousing</li>
+                                    <li>Real-time Data Processing</li>
+                                    <li>Big Data Solutions</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3>Business Insights</h3>
+                                <p>Data-driven decision making</p>
+                                <ul>
+                                    <li>KPI Development</li>
+                                    <li>Performance Metrics</li>
+                                    <li>Predictive Business Analytics</li>
+                                    <li>Strategic Planning Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                                <i class="fas fa-bolt"></i> Hire for Data Project
+                            </a>
+                            <a href="portfolio.html" class="btn-outline">
+                                <i class="fas fa-eye"></i> View Data Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="tech-stack-section" id="pricing">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Pricing <span class="highlight">Plans</span></h2>
+                <p class="section-subtitle">Flexible pricing options for every budget</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">25</span>
+                            <span class="period">/hour</span>
+                        </div>
+                        <p>Perfect for small projects</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 10 hours/week</li>
+                            <li><i class="fas fa-check"></i> Basic ML Models</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                            <li><i class="fas fa-check"></i> 1 Revision</li>
+                            <li><i class="fas fa-check"></i> 3 Days Delivery</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                        <i class="fas fa-shopping-cart"></i> Get Started
+                    </a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">40</span>
+                            <span class="period">/hour</span>
+                        </div>
+                        <p>Best for growing businesses</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 40 hours/week</li>
+                            <li><i class="fas fa-check"></i> Advanced ML Models</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> 3 Revisions</li>
+                            <li><i class="fas fa-check"></i> 24/7 Availability</li>
+                            <li><i class="fas fa-check"></i> API Integration</li>
+                        </ul>
+                    </div>
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                        <i class="fas fa-shopping-cart"></i> Get Started
+                    </a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">60</span>
+                            <span class="period">/hour</span>
+                        </div>
+                        <p>For large scale projects</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited Hours</li>
+                            <li><i class="fas fa-check"></i> Complex AI Solutions</li>
+                            <li><i class="fas fa-check"></i> 24/7 Dedicated Support</li>
+                            <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+                            <li><i class="fas fa-check"></i> Team Collaboration</li>
+                            <li><i class="fas fa-check"></i> Project Management</li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="btn-primary">
+                        <i class="fas fa-shopping-cart"></i> Contact for Quote
+                    </a>
+                </div>
+            </div>
+            
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> All prices are negotiable based on project scope and requirements. 
+                Contact me for a custom quote tailored to your specific needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="services-section" style="background: var(--dark);">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">My <span class="highlight">Process</span></h2>
+                <p class="section-subtitle">How I work to deliver exceptional results</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Consultation</h3>
+                    <p>Understanding your requirements and project goals</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Planning</h3>
+                    <p>Creating a detailed project plan and timeline</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Building the solution with regular updates</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Delivery</h3>
+                    <p>Final delivery with testing and deployment</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support</h3>
+                    <p>Ongoing support and maintenance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss your requirements and get started immediately. I'm ready to bring your ideas to life.</p>
+                
+                <div class="hero-actions" style="justify-content: center; margin-top: 40px;">
+                    <a href="https://www.freelancer.com/u/MuhammadSudaisAI" class="btn-primary" target="_blank">
+                        <i class="fas fa-bolt"></i> Hire on Freelancer
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-calendar"></i> Book a Call
+                    </a>
+                    <a href="https://wa.me/923474810818" class="btn-outline" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">MUHAMMAD<span class="highlight">SUDAIS</span></span>
+                            <span class="logo-tag">AI FREELANCER</span>
+                        </div>
+                    </a>
+                    <p>Professional AI/ML Freelancer with 5+ years experience. 
+                    Available on all major freelance platforms for your projects.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/MuhammadSudaisAI" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammadsudaisai/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.freelancer.com/u/MuhammadSudaisAI" target="_blank" title="Freelancer">
+                            <i class="fas fa-laptop-code"></i>
+                        </a>
+                        <a href="https://www.fiverr.com/sudais_ai" target="_blank" title="Fiverr">
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#ml"><i class="fas fa-chevron-right"></i> Machine Learning</a></li>
+                        <li><a href="services.html#cv"><i class="fas fa-chevron-right"></i> Computer Vision</a></li>
+                        <li><a href="services.html#nlp"><i class="fas fa-chevron-right"></i> NLP Solutions</a></li>
+                        <li><a href="services.html#web"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="services.html#data"><i class="fas fa-chevron-right"></i> Data Science</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="#pricing"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <p>City Line 10, Street 5<br>Bakhtawar, Islamabad</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+92 347 4810818</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>sudaisoo72@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Muhammad Sudais AI. All rights reserved.</p>
+                    <p>Professional AI/ML Freelancer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Modal -->
+    <div class="chatbot-modal" id="chatbotModal">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i>
+                <h3>AI Assistant</h3>
+                <span class="status online">Online</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-replies">
+                <button class="quick-reply" data-reply="services">What services do you offer?</button>
+                <button class="quick-reply" data-reply="pricing">What are your rates?</button>
+                <button class="quick-reply" data-reply="contact">How to contact you?</button>
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="sendMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize for this page
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+        
+        // Typing effect
+        const typed = new Typed('.typed-text', {
+            strings: ['That Drive Results', 'For Your Business', 'With Cutting-edge Tech', 'That Scale'],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>
